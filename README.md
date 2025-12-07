@@ -3,10 +3,7 @@
 A **real-time chat application** built with the **MERN stack** and **Socket.IO**.  
 It supports **user authentication**, **real-time messaging**, and **media sharing**, making it feel like a modern chat platform.
 
-Deployed here-->
-  ## 🚀 Live Demo
-[Click here to try the app on Render](https://mern-chat-app-3z8a.onrender.com)
----
+
 
 ## 💡 Why I Built This
 
@@ -38,8 +35,6 @@ This project gave me hands-on experience with **end-to-end full-stack developmen
 - Handling authentication & security in full-stack projects.  
 - Managing state & live updates efficiently on the frontend.  
 
-  ![Home](./Home.png)
-  ![chat](./chat.png)
 
 ## 🚀 Tech Stack
 
@@ -60,33 +55,4 @@ This project gave me hands-on experience with **end-to-end full-stack developmen
 - CORS, dotenv, cookie-parser  
 
 ---
-
-
-## 📂 Folder Structure
-
-```bash
-CHAT-APP
-│── backend/               # Server-side (Node.js + Express + MongoDB)
-│   ├── src/
-│   │   ├── controllers/   # Handles request/response logic
-│   │   ├── middleware/    # Authentication, error handling
-│   │   ├── models/        # MongoDB schemas
-│   │   ├── routes/        # API endpoints
-│   │   └── index.js       # Server entry point
-│   ├── .env               # Environment variables
-│   ├── package.json       
-│
-│── frontend/              # Client-side (React)
-│   ├── public/            # Static assets
-│   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── constants/     # Constants (API URLs, config)
-│   │   ├── lib/           # Helper functions (e.g., API calls)
-│   │   ├── pages/         # Main pages (Login, Signup, Chat, Profile, etc.)
-│   │   ├── store/         # Zustand store for state management
-│   │   ├── App.jsx        # Main App component
-│   │   └── index.css      # Global styles
-│   ├── package.json
-│
-└── README.md
 
